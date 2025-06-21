@@ -5,7 +5,7 @@
 ---
 ### Overview
 
-* __Tsunamis__ are Long-Wavelength, High-Energy Waves caused by underwater disturbances such as Earthquakes, Landslides, or Volcanic Eruptions.
+* __Tsunamis__ are __Long-Wavelength__, __High-Energy Waves__ caused by __underwater disturbances__ such as __Earthquakes__, __Landslides__, or __Volcanic Eruptions__.
 * This project simulates __Tsunami Wave propagation__ in __coastal__ and __open-ocean__ settings using the __2D Nonlinear Shallow Water Equations__.
 
 
