@@ -1,7 +1,7 @@
 
 ## Tsunami-Solver: Tsunami Modeling with the 2D Shallow Water Equations
 
-* A __C++17 Finite Element Solver__ for modeling __Tsunami__ generation and propagation using the __Nonlinear 2D Shallow Water Equations (SWE)__. 
+* A __C++17 Finite Element Solver__ for modeling __Tsunami__ generation and propagation using the __Nonlinear 2D Shallow Water Equations__. 
 ---
 ### Overview
 
