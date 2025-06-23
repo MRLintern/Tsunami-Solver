@@ -25,6 +25,7 @@
     * `dh/dt + d(hu)/dx + d(hv)/dy = 0`; __mass conservation__.
     * `d(hu)/dt + d(hu^2 + 1/2gh^2)/dx + d(huv)/dy = -ghdb/dx`: __momentum x-direction__.
     * `d(hv)/dt + d(huv)/dx + d(hv^2 + 1/2gh^2)dy = -ghdb/dy`: __momentum y-direction__.
+    * Note: `d` representes `partial differential operator`.
 * Application to Tsunami Modeling:
     * The __initial disturbance__ (e.g., from a __submarine earthquake__) displaces water.
     * __SWEs__ simulate the __wave propagation__ over __varying bathymetry__.
@@ -38,3 +39,6 @@
 
 ---
 ### Instructions: Getting and Using the Software
+
+### References & Resources
+* ___Modern Fortran: Building Efficient Parallel Applications___ by __Milan Curcic__. This wonderful book shows how to develop a parallel solver for solving the __Shallow Water Equations, modelling __Tsunamis__ using __Fortran__ and __Coarrays__. 
