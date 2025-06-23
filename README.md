@@ -25,7 +25,7 @@
     * `dh/dt + d(hu)/dx + d(hv)/dy = 0`; __mass conservation__.
     * `d(hu)/dt + d(hu^2 + 1/2gh^2)/dx + d(huv)/dy = -ghdb/dx`: __momentum x-direction__.
     * `d(hv)/dt + d(huv)/dx + d(hv^2 + 1/2gh^2)dy = -ghdb/dy`: __momentum y-direction__.
-    * Note: `d` representes `partial differential operator`.
+    * Note: `d` representes the `partial differential operator`.
 * Application to Tsunami Modeling:
     * The __initial disturbance__ (e.g., from a __submarine earthquake__) displaces water.
     * __SWEs__ simulate the __wave propagation__ over __varying bathymetry__.
