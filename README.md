@@ -41,4 +41,4 @@
 ### Instructions: Getting and Using the Software
 
 ### References & Resources
-* ___Modern Fortran: Building Efficient Parallel Applications___ by __Milan Curcic__. This wonderful book shows how to develop a parallel solver for solving the __Shallow Water Equations, modelling __Tsunamis__ using __Fortran__ and __Coarrays__. 
+* ___Modern Fortran: Building Efficient Parallel Applications___ by __Milan Curcic__. This wonderful book shows how to develop a parallel solver for solving the __Shallow Water Equations__, modelling __Tsunamis__ using __Fortran__ and __Coarrays__. 
