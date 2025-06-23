@@ -13,7 +13,22 @@
 
 ---
 ### Governing Equations
-
+* The __Shallow Water Equations (SWEs)__ are a set of __Hyperbolic Partial Differential Equations__ that describe the __flow__ below a __pressure surface__ in a fluid (typically the ocean) when the __horizontal length scale__ is much __greater__ than the __vertical depth__.
+* They model __depth-averaged__, __incompressible__, __inviscid flow__, assuming the __vertical acceleration__ is __negligible__.
+* Components of the SWEs:
+    * `h(x,y,t)`: __fluid depth__
+    * `u(x,y,t)`,`v(x,y,t)`: __horizontal velocities__ in `x-` and `y-directions` respectively.
+    * `g`: __gravitational acceleration__.
+    * `n = h+b`: __free surface elevation__.
+    * `b(x,y)`: __ocean bottom topography__.
+* The __2D conservative form__ is:
+    * `dh/dt + d(hu)/dx + d(hv)/dy = 0`; __mass conservation__.
+    * `d(hu)/dt + d(hu^2 + 1/2gh^2)/dx + d(huv)/dy = -ghdb/dx`: __momentum x-direction__.
+    * `d(hv)/dt + d(huv)/dx + d(hv^2 + 1/2gh^2)dy = -ghdb/dy`: __momentum y-direction__.
+* Application to Tsunami Modeling:
+    * The __initial disturbance__ (e.g., from a __submarine earthquake__) displaces water.
+    * __SWEs__ simulate the __wave propagation__ over __varying bathymetry__.
+    * Can simulate __inundation__ by extending the domain with moving wet/dry boundaries.
 ---
 ### Requirements
 * __Compiler__: `g++ 13.1.0`. Your compiler needs to be able to make use of `C++17` features.
